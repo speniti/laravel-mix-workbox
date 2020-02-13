@@ -1,0 +1,29 @@
+{
+  "name": "laravel-mix-workbox",
+  "version": "0.1.2",
+  "description": "Laravel Mix extension for Workbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speniti/laravel-mix-workbox.git"
+  },
+  "keywords": [
+    "laravel",
+    "laravel",
+    "mix",
+    "mix",
+    "workbox"
+  ],
+  "author": "Simone Peniti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/speniti/laravel-mix-workbox/issues"
+  },
+  "homepage": "https://github.com/speniti/laravel-mix-workbox#readme",
+  "peerDependencies": {
+    "laravel-mix": "^4.0.15 || ^5.0.0"
+  }
+}
