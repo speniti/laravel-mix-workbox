@@ -59,6 +59,16 @@ class Workbox {
     webpackPlugins() {
         return this.plugin;
     }
+
+    /**
+     * Override the underlying webpack configuration.
+     *
+     * @param  {Object} webpackConfig
+     * @return {void}
+     */
+    webpackConfig(webpackConfig) {
+        webpackConfig.output.publicPath = '';
+    }
 }
 
 mix.extend(['generateSW', 'injectManifest'], new Workbox());
