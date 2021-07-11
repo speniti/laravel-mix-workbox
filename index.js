@@ -51,7 +51,7 @@ class Workbox {
         }, this.config));
     }
 
-    /*
+    /**
      * Plugins to be merged with the master webpack config.
      *
      * @return {Array|Object}
